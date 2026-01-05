@@ -1,0 +1,13 @@
+{
+  "num_classes": 2,
+  "class_names": [
+    "repetitions",
+    "fluent"
+  ],
+  "extractor_type": "logmel",
+  "model_type": "cnn",
+  "best_val_acc": 0.7131147540983607,
+  "num_epochs": 30,
+  "batch_size": 16,
+  "learning_rate": 0.001
+}

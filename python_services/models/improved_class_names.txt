@@ -1,0 +1,6 @@
+blocks
+prolongations
+repetitions
+fluent
+interjections
+other

@@ -1,0 +1,49 @@
+{
+  "input_shape": [
+    1,
+    128,
+    128,
+    3
+  ],
+  "output_shape": [
+    1,
+    8
+  ],
+  "class_names": [
+    "blocks",
+    "prolongations", 
+    "repetitions",
+    "fluent",
+    "non_speech",
+    "music",
+    "interjections",
+    "natural_pauses"
+  ],
+  "input_type": "float32",
+  "output_type": "float32",
+  "segment_duration": 3.0,
+  "overlap_ratio": 0.5,
+  "min_segment_duration": 1.0,
+  "mel_spectrogram_params": {
+    "n_mels": 128,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "fmin": 50,
+    "fmax": 11025,
+    "window": "hann",
+    "preemphasis": true,
+    "top_db": 80
+  },
+  "core_classes": [
+    "blocks",
+    "prolongations",
+    "repetitions", 
+    "fluent"
+  ],
+  "additional_classes": [
+    "non_speech",
+    "music",
+    "interjections",
+    "natural_pauses"
+  ]
+}
